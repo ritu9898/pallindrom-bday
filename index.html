@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <head>
+    <title>Palindrome Birthday</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+      .container {
+        max-width: 500px;
+        margin-top: 50px;
+      }
+      small {
+        margin: 20px 0;
+      }
+    </style>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Palindrome Birthday</h2>
+      <div>
+        <p>Enter your birth date: </p>
+        <div class="input-group flex-nowrap">
+          <input type="date" class="form-control" id="date" >
+          <button type="button" class="btn btn-outline-secondary" onclick="takeInput()">SHOW</button>
+        </div>
+      </div>
+      <h3 id="ans"></h3>
+    </div>
+  </body>
+</html>
